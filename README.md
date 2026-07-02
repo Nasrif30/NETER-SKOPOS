@@ -41,8 +41,8 @@ Start the interception proxy on port 8080.
 ```bash
 mitmdump -s src/neter_skopos.py -p 8080
 ```
-![Core Proxy Engine Execution](<img width="1457" height="731" alt="image" src="https://github.com/user-attachments/assets/6443f051-c7cc-44bf-8700-068d24fe39d0" />
-)
+<img width="1457" height="731" alt="image" src="https://github.com/user-attachments/assets/a149ca92-f0ac-43d1-ad3c-b3ba74ee9f99" />
+
 *(Note: Replace the placeholder above with a screenshot of the proxy running in the terminal.)*
 
 ### 2. Launch the Live UI Dashboard
