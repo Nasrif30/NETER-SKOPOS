@@ -91,12 +91,7 @@ Remove-Item "storage\lumen\*" -Recurse -Force
 ## Documentation
 For a complete breakdown of configuration options, database schemas, and advanced commands, refer to the accompanying documentation files in the repository root:
 - `COMMANDS.md`
-- `1_PROJECT STRUCTURE.md`
-- `2_CONFIG & MAIN PROXY.md`
-- `3_ANALYZER MODULE.md`
-- `4_REPORTER MODULE.md`
-- `5_STORAGE & DATABASE.md`
-- `6_LAUNCHERS & DOCS.md`
+
 
 ## Disclaimer
 NETER-SKOPOS is intended strictly for authorized security research, CTF environments, and auditing of infrastructure you explicitly own. Do not use this tool on unauthorized networks.
