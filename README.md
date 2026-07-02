@@ -1,6 +1,15 @@
 # NETER-SKOPOS
 **The Dark Mirror — Portable MITM Security Auditing Platform**
 
+<img width="1457" height="731" alt="Screenshot 2026-07-03 032228" src="https://github.com/user-attachments/assets/e5e6f4ac-36a6-4174-a4f4-046c12f35867" />
+
+
+---
+
+
+<img width="1915" height="970" alt="Screenshot 2026-07-03 031433" src="https://github.com/user-attachments/assets/6c5cb786-3ad1-4e94-aeb7-70c943856e03" />
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 NETER-SKOPOS is a specialized, dark-themed Man-In-The-Middle (MITM) intercept proxy and automated security auditing tool. It is designed to identify plaintext traffic vulnerabilities, intercept exposed credentials, and generate dynamic force-directed network visualizations in real-time.
