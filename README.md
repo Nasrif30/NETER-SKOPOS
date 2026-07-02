@@ -43,7 +43,7 @@ mitmdump -s src/neter_skopos.py -p 8080
 ```
 <img width="1457" height="731" alt="image" src="https://github.com/user-attachments/assets/a149ca92-f0ac-43d1-ad3c-b3ba74ee9f99" />
 
-*(Note: Replace the placeholder above with a screenshot of the proxy running in the terminal.)*
+*(Note: Screenshot of the proxy running in the terminal.)*
 
 ### 2. Launch the Live UI Dashboard
 In a second terminal, launch the local dashboard server. This will automatically open your default web browser to monitor the active session.
@@ -51,8 +51,17 @@ In a second terminal, launch the local dashboard server. This will automatically
 ```bash
 python3 scripts/launch_ui.py
 ```
-![Live UI Dashboard](<IMAGE_PLACEHOLDER_UI>)
-*(Note: Replace the placeholder above with a screenshot of the live interactive dashboard.)*
+<img width="1897" height="903" alt="Screenshot 2026-07-03 031528" src="https://github.com/user-attachments/assets/9c55fdab-3cac-4f48-8acc-dc72deb18ff2" />
+*(Note: Screenshot of the live interactive dashboard with no data.)*
+
+<img width="1915" height="970" alt="Screenshot 2026-07-03 031433" src="https://github.com/user-attachments/assets/d0f4491d-59bb-483d-bbe6-831776dde918" />
+
+<img width="1876" height="577" alt="Screenshot 2026-07-03 031446" src="https://github.com/user-attachments/assets/52a26ad8-9691-4609-9ee6-7fc6c61b3341" />
+
+<img width="1880" height="686" alt="Screenshot 2026-07-03 031458" src="https://github.com/user-attachments/assets/fde84e40-0857-4329-bb89-0408e87e2ac7" />
+
+<img width="1886" height="602" alt="Screenshot 2026-07-03 031508" src="https://github.com/user-attachments/assets/fa55a5c0-1296-45ac-bc74-21ba08fc98a7" />
+*(Note: Screenshot of the live interactive dashboard with data report.)*
 
 ### 3. Execute the Automated Network Audit
 In a third terminal, run the auto-discovery script. This script automatically detects your network gateway and fires baseline assessment payloads through the proxy.
@@ -60,8 +69,9 @@ In a third terminal, run the auto-discovery script. This script automatically de
 ```bash
 python3 scripts/auto_audit.py
 ```
-![Automated Network Audit](<IMAGE_PLACEHOLDER_AUDIT>)
-*(Note: Replace the placeholder above with a screenshot of the auto-audit script execution.)*
+<img width="726" height="625" alt="image" src="https://github.com/user-attachments/assets/11d5252f-b0c0-4be3-8348-fd926bd3a0bd" />
+
+*(Note: Screenshot of the auto-audit script execution.)*
 
 ---
 
