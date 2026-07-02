@@ -1,0 +1,26 @@
+storage/
+logs/
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+*.log
+*.key
+*.pem
+*.cer
+.DS_Store
+Thumbs.db
+
+# Do not push internal documentation
+1_PROJECT STRUCTURE.md
+2_CONFIG & MAIN PROXY.md
+3_ANALYZER MODULE.md
+4_REPORTER MODULE.md
+5_STORAGE & DATABASE.md
+6_LAUNCHERS & DOCS.md
+ai persona.md
+
+# Do not push generated certs and binaries
+certs/
+*.bin

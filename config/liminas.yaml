@@ -1,0 +1,87 @@
+# NETER·SKOPOS - Configuration
+# The Dark Mirror - Portable Edition
+
+network:
+  listen_port: 8080
+  listen_host: "0.0.0.0"
+  enable_ssl: true
+  ssl_cert_dir: "./certs/auctoritas"
+  max_connections: 1000
+
+storage:
+  base_path: "./storage"
+  speculum: "./storage/speculum"
+  umbrae: "./storage/umbrae"
+  lumen: "./storage/lumen"
+  max_session_size: 50000
+  compress_data: true
+  retention_days: 365
+  export_format: "json"
+
+security:
+  encrypt_storage: false
+  master_key_path: "./config/keys/master.key"
+  store_plaintext: true
+  store_credentials: true
+  store_cookies: true
+  store_files: true
+  store_bodies: true
+  store_headers: true
+  max_body_size_mb: 50
+
+analysis:
+  detect_credentials: true
+  detect_pii: true
+  detect_weak_cookies: true
+  detect_plaintext_http: true
+  detect_ssl_errors: true
+  ssl_strip_detection: true
+  detect_auth_tokens: true
+  detect_file_extracts: true
+  detect_websocket: true
+
+reporting:
+  format: "obsidian"
+  include_educational: true
+  include_recommendations: true
+  risk_threshold: 10
+  generate_on_flow_count: 5
+  generate_interval_seconds: 30
+  export_to_json: true
+  export_to_csv: true
+  visualize_connections: true
+
+logging:
+  level: "DEBUG"
+  file: "./logs/neter_skopos.log"
+  console: true
+  rotate_size_mb: 100
+  rotate_count: 10
+
+modules:
+  http: true
+  https: true
+  websocket: true
+  tcp: true
+  udp: true
+  dns: true
+
+education:
+  enabled: true
+  language: "en"
+  include_examples: true
+  include_fixes: true
+  include_attacker_pov: true
+
+forensics:
+  store_pcap: true
+  store_hexdumps: true
+  hash_files: true
+  extract_files: true
+
+visualization:
+  enabled: true
+  output_format: "html"
+  include_graphs: true
+  include_connection_map: true
+  include_timeline: true
