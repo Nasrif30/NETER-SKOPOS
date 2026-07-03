@@ -19,6 +19,9 @@ NETER-SKOPOS is a specialized, dark-themed Man-In-The-Middle (MITM) intercept pr
 ## Architecture Overview
 
 NETER-SKOPOS operates via an explicit proxy configuration. Client traffic is voluntarily routed through port `8080`, where the core intercept engine analyzes the payloads, stores the findings locally, and updates a live security dashboard. 
+
+---
+
 <img width="2181" height="8192" alt="Client Device Traffic-2026-07-02-180045" src="https://github.com/user-attachments/assets/1000e08c-e74a-4214-923e-d7af09222953" />
 
 
