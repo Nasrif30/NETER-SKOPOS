@@ -1,3 +1,12 @@
+
+<img width="1254" height="1254" alt="NETER-SKOPOS" src="https://github.com/user-attachments/assets/51b8a39d-73fa-4767-94ad-c420ba092921" />
+
+
+
+---
+
+
+
 # NETER-SKOPOS
 **The Dark Mirror — Portable MITM Security Auditing Platform**
 
